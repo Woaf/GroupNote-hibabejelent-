@@ -1,8 +1,8 @@
 # GroupNote Hibabejelentő szolgáltatás 
 ######Fejlesztők számára
 
--ELTE IK - Alkalmazások Fejelsztése - II. (kötelező) beadandó
--JJ8O3E - Fazekas Bálint (@Woaf)
+- ELTE IK - Alkalmazások Fejelsztése - II. (kötelező) beadandó
+- JJ8O3E - Fazekas Bálint (@Woaf)
 
 #Követelményanalízis
  - Funkcionális követelmények:
