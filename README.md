@@ -1,9 +1,49 @@
-# Hibabejelento
+# GroupNote Hibabejelentő szolgáltatás 
+######Fejlesztők számára
 
+ELTE IK - Alkalmazások Fejelsztése - II. (kötelező) beadandó
+JJ8O3E - Fazekas Bálint (@Woaf)
 
+#Követelményanalízis
+ - Funkcionális követelmények:
+  * Kezelők felvétele
+  * Kezelők hozzárendelése bejelentésekhez (egy bejelentés tartalmaz: nevet, leírást, és helyszínt)
+  * A bejelentett panaszokat lehessen módosítani,
+  * illetve törölni
 
+ - Nem funkcionális követelmények:
+  * Könnyű kezelhetőség; egyszerű felület (ergonomikus weboldal)
 
+ - Használati eset modell
+  * Szerepkörök:
+    1. Bejelentést kezelő személy:
+      - Új kezelő hozzáadása
+      - Új bejelentés hozzáadása
+      - Már meglévő bejelentések módosítása,
+      - avagy törlése
+  
+  * ![Használati eset diagram](docs/use_case.png)
+  
+##Tervezés
+ - Architektúra terv
+    * Oldaltérkép (lásd az előző diagramon)
+        -Bejegyzések oldala:
+           + Új bejelentő (kezelő)
+           + Bejelentés módosítása,
+           + vagy törlése
+	  * Oldaltervek
+	    - ![1](docs/design_plan1.jpg)
+	 
+ - Osztálymodell
+    * Adatmodell
+    
+      ![Adatmodell](docs/adatmodellek.png)
 
+    * Adatbázisterv
+    
+      ![Adatbázis modell](docs/adatbmodell.png)
+      
+##Felhasználói dokumentáció
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
